@@ -7,5 +7,6 @@ module.exports = merge(config, {
 	output: {
 		filename: "bundle.[contenthash].js",
 		path: path.resolve(__dirname, "build"),
+		assetModuleFilename: "images/[hash][ext][query]",
 	},
 });
