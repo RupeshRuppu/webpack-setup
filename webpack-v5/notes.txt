@@ -1,0 +1,19 @@
+:: 
+
+
+OB:01
+
+Invalid options object. Dev Server has been initialized using an options object that does not match the API schema.
+
+devServer: {
+   contentBase: "./dist",
+},
+
+module.exports = {
+    mode: "development",
+    devServer: {
+        static: {
+            directory: "./dist",
+        },
+    },
+};
